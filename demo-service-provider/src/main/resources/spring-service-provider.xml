@@ -8,7 +8,7 @@
     <dubbo:application name="hello-service-producer" organization="github" owner="yjmyzz" version="1.0"/>
 
     <dubbo:registry protocol="zookeeper"
-                    address="zookeeper://127.0.0.1:2181?backup=127.0.0.1:2182,127.0.0.1:2183"/>
+                    address="zookeeper://127.0.0.1:2181"/>
 
     <!--<dubbo:monitor protocol="registry"/>-->
 

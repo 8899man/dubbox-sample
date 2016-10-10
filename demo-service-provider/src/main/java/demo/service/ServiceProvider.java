@@ -18,7 +18,7 @@ public class ServiceProvider {
         ApplicationContextUtil.getInstance().getContext();
         Logger log = LoggerFactory.getLogger(ServiceProvider.class);
         log.info("服务已启动!");
-        System.out.println("dubbo servicve has been started ...");
+        System.out.println("servicve has been started ...");
         System.in.read();
     }
 }

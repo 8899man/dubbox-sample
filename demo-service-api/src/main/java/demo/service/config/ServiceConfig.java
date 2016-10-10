@@ -1,4 +1,4 @@
-package demo.config;
+package demo.service.config;
 
 import lombok.Data;
 

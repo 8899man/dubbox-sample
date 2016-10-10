@@ -45,11 +45,11 @@ public class ServiceConsumer {
         OrderService.Iface thriftService = context.getBean("orderService", OrderService.Iface.class);
         System.out.println("thriftService ping:" + thriftService.ping());
 
-        //rpcTest(userService);
+//        rpcTest(dubboService);
 
-        //restTest();
+//        restTest();
 
-        performanceTest(dubboService, avroService, thriftService);
+//        performanceTest(dubboService, avroService, thriftService);
 
         //restErrorTest();
     }

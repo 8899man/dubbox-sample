@@ -1,7 +1,7 @@
 package demo.filter;
 
 import com.alibaba.dubbo.rpc.*;
-import demo.config.ServiceConfig;
+import demo.service.config.ServiceConfig;
 import demo.service.api.DataResult;
 import demo.service.api.consts.ServiceConst;
 import demo.service.api.exception.ParamException;
